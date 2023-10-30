@@ -1,0 +1,6 @@
+[submodule "npy-matlab"]
+	path = npy-matlab
+	url = https://github.com/kwikteam/npy-matlab
+[submodule "kilosort2_5"]
+	path = kilosort2_5
+	url = https://github.com/mouseland/Kilosort.git
