@@ -31,7 +31,9 @@ matlab -batch "mexGPUall"
 export OUTDIR=$CWD/$OUTDIR  # output dir
 cd $OUTDIR   # go to the output dir
 
-mcc -m $CWD"/run_"$KILOSORT".m" -a $KILOSORT_PATH -a $NPY_MATLAB_PATH -o $KILOSORT -v
+CMD="mcc -R -nojvm -v -R -nodisplay -m "${CWD}"/run_"${KILOSORT}".m -a "${KILOSORT_PATH}" -a "${NPY_MATLAB_PATH}" -o "${KILOSORT}
+
+matlab -batch "$CMD"
 
 
 
