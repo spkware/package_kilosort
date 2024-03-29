@@ -1,11 +1,12 @@
 ## Packaged/compiled Kilosort releases
 
-This contains a compiled version of Kilosort 2.5
+This contains a compiled version of Kilosort 2.5 and Kilosort 3.0
 
+It includes the binary files and all needed to re-compile.
 
 #### Instructions
 
-Run this on Linux. I used UBUNTU 22.04
+Run this on Linux to find out the MRC dependencies. I used UBUNTU 22.04
 After running `sh compile_kilosort2_5.sh` open matlab and run:
 
 `pcmn = matlab.depfun.internal.ProductComponentModuleNavigator;`
