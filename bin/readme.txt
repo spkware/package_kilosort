@@ -1,4 +1,4 @@
-kilosort2_5 Executable
+kilosort3_0 Executable
 
 1. Prerequisites for Deployment 
 
@@ -23,12 +23,12 @@ in the MathWorks Documentation Center.
 
 Files to Package for Standalone 
 ================================
--kilosort2_5 
--run_kilosort2_5.sh (shell script for temporarily setting environment variables and 
+-kilosort3_0 
+-run_kilosort3_0.sh (shell script for temporarily setting environment variables and 
                      executing the application)
    -to run the shell script, type
    
-       ./run_kilosort2_5.sh <mcr_directory> <argument_list>
+       ./run_kilosort3_0.sh <mcr_directory> <argument_list>
        
     at Linux or Mac command prompt. <mcr_directory> is the directory 
     where version 9.12 of the MATLAB Runtime is installed or the directory where 
@@ -38,12 +38,12 @@ Files to Package for Standalone
     If you have version 9.12 of the MATLAB Runtime installed in 
     /mathworks/home/application/v912, run the shell script as:
     
-       ./run_kilosort2_5.sh /mathworks/home/application/v912
+       ./run_kilosort3_0.sh /mathworks/home/application/v912
        
     If you have MATLAB installed in /mathworks/devel/application/matlab, 
     run the shell script as:
     
-       ./run_kilosort2_5.sh /mathworks/devel/application/matlab
+       ./run_kilosort3_0.sh /mathworks/devel/application/matlab
 -MCRInstaller.zip
     Note: if end users are unable to download the MATLAB Runtime using the
     instructions in the previous section, include it when building your 
@@ -91,7 +91,7 @@ ${LD_LIBRARY_PATH}:MR/v912/runtime/glnxa64:MR/v912/bin/glnxa64:MR/v912/sys/os/gl
         NOTE: The environment variable syntax utilizes forward 
               slashes (/), delimited by colons (:).  
         NOTE: When deploying standalone applications, you can
-              run the shell script file run_kilosort2_5.sh 
+              run the shell script file run_kilosort3_0.sh 
               instead of setting environment variables. See 
               section 2 "Files to Deploy and Package".    
 

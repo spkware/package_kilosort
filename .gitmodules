@@ -4,3 +4,6 @@
 [submodule "kilosort2_5"]
 	path = kilosort2_5
 	url = https://github.com/mouseland/Kilosort.git
+[submodule "kilosort3_0"]
+	path = kilosort3_0
+	url = https://github.com/MouseLand/Kilosort.git

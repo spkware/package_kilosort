@@ -3,11 +3,8 @@
 This contains a compiled version of Kilosort 2.5
 
 
-
-
-
-
 #### Instructions
+
 Run this on Linux. I used UBUNTU 22.04
 After running `sh compile_kilosort2_5.sh` open matlab and run:
 
