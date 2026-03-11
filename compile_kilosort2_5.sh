@@ -35,5 +35,9 @@ CMD="mcc -v -R -nodisplay -m "${CWD}"/run_"${KILOSORT}".m -a "${KILOSORT_PATH}" 
 
 matlab -batch "$CMD"
 
+# 4) Package the installer
 
+CMD="compiler.runtime.customInstaller('mcrinstaller','buildresult.json')"
+
+matlab -batch "$CMD"
 

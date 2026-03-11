@@ -6,6 +6,8 @@ It includes the binary files and all needed to re-compile.
 
 #### Instructions
 
+You need to init the submodules after cloning. You can do that with ``git submodule update --init --recursive``
+
 Run this on Linux to find out the MRC dependencies. I used UBUNTU 22.04
 After running `sh compile_kilosort2_5.sh` open matlab and run:
 
